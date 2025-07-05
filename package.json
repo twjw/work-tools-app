@@ -5,8 +5,9 @@
   "private": true,
   "packageManager": "pnpm@10.12.3",
   "scripts": {
+    "build:all": "pnpm -r --parallel build",
     "dev:@plugin-xd/copy-color": "pnpm --filter @plugin-xd/copy-color dev",
-    "build:plugin-xd": "pnpm -r --parallel build"
+    "build:@plugin-xd/copy-color": "pnpm --filter @plugin-xd/copy-color build"
   },
   "repository": {
     "type": "git",
